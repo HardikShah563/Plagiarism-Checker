@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,94 @@
     <title>Plagiarism Checker</title>
     <!-- CSS stylesheet Link -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6d232ec003.js" crossorigin="anonymous"></script>
+    <!-- Javascript File -->
+    <!-- <script src="./assets/backend/main.js"></script> -->
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!-- Ppscript -->
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <!-- <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script> -->
 </head>
+
 <body>
-    
+    <div class="main-body">
+        <div class="header" id="header">
+            <nav class="nav" id="nav">
+                <div>
+                    <p class="heading"><span class="love">Plagiarism</span> Checker!</p>
+                </div>
+                <div class="list">
+                    <li class="list-item">Plagiarism Checker</li>
+                    <li class="list-item">Technical Insights</li>
+                    <li class="list-item">FAQS</li>
+                    <!-- <li class="list-item">Our Team</li> -->
+                </div>
+
+            </nav>
+        </div>
+        <div class="title-card">
+            <p class="title" id="title">Plagiarism Checker by Team 9</p>
+            <p class="sub-title" id="sb-title">Our Plagiarism Detector compares the two documents and displays the amout
+                of plagiarism between the two documents</p>
+        </div>
+        <div class="grid-container">
+            <div class="side-img">
+                <img src="./assets/res/img-left.png" alt="">
+                <p>Catch plagiarism is seconds!</p>
+            </div>
+            <textarea class="doc1" id="doc1" name="doc1" id="doc1" cols="30" rows="10"></textarea>
+            <textarea class="doc2" id="doc2" name="doc2" id="doc2" cols="30" rows="10"></textarea>
+            <div class="side-img">
+                <img src="./assets/res/img-right.png" alt="">
+                <p>Get instantaneous feedback on the plagiarism intensity!</p>
+            </div>
+        </div>
+        <button class="submit-b" id="submit-b">Scan for Plagiarism</button>
+        <div class="display">
+            <h4 class="message" id="message">Message: </h4>
+            <h4 ></h4>
+        </div>
+        <hr>
+        <section class="technical-insights-section">
+            <div class="title-card">
+                <div class="technical-insights">
+                    <p class="title" id="title">Technical Insights</p>
+                    <p class="sub-title" id="sub-title">How Plagiarism Checker Helps You</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="subcontainer">
+                    <p class="head">Deep Search</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae vel nobis incidunt. Qui
+                        deserunt nesciunt similique quam, iste exercitationem labore.</p>
+                </div>
+                <div class="subcontainer">
+                    <p class="head">Honesty Checker</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laudantium sed tempora ab
+                        ipsam est distinctio ex nesciunt ullam pariatur!</p>
+                </div>
+            </div>
+        </section>
+        <div class="title-card">
+            <div class="technical-insights">
+                <p class="title" id="title">Consequences of Plagiarism</p>
+                <p class="sub-title" id="sub-title">Let's learn why plagiarism is important and let's go through all the
+                    possible affects you would have to face if you copy</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Made with <i class="fa-solid fa-heart love"></i> by <span class="love">Team 9</span></p>
+        </footer>
+    </div>
+    <script src="./assets/backend/main.js"></script>
 </body>
+
 </html>
+<!-- <div class="box"></div> -->
