@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.main-body {
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+    width: 90vw;
+    max-height: 90vh;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 5px solid #fd4556;
+    border-radius: 1rem;
+}
+
+.header {
+    background-color: #202020;
+    color: #ffffff;
+    padding: 10px auto 10px auto;
+    position: sticky;
+    top: 0;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0 20px 0 20px;
+}
+
+nav {
+    align-items: center;
+    border-bottom: 5px solid #fd4556;
+}
+
+nav,
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-item {
+    margin: 0 40px;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+}
+
+.title-card {
+    margin: 80px auto 50px auto;
+    width: 40%;
+    z-index: -1;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.sub-title {
+    margin-top: 10px;
+    text-align: center;
+}
+
+form {
+    margin: 0px 20px 0px 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+}
+
+.grid-container div img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+.side-img p {
+    margin: 10px;
+    text-align: center;
+}
+
+
+textarea {
+    height: 300px; 
+    width: 450px;
+    resize: none;
+    padding: 20px;
+    margin: 20px;
+}
+
+.submit-b {
+    font-weight: 600;
+    display: block;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid #fd4556;
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    transition-duration: 0.4s;
+}
+
+.submit-b:hover {
+    background-color: #fd4556;
+    border: 2px solid #202020;
+    transform: scale(1.2);
+}
+
+.display {
+    margin: 20px auto 20px auto;
+    padding: 10px 20px;
+    width: 40%;
+    border: 2px solid #000000;
+    border-radius: 1rem;
+}
+
+.box {
+    height: 100px;
+    width: 200px;
+    border: 2px ridge #fd4556;
+    border-radius: 1rem;
+    box-shadow: inset 0 0 10px #fd4556;
+}
+
+.technical-insights-section {
+    /* background-color: #8c8c8c; */
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto 20px auto;
+    justify-content: space-around;
+    display: flex;
+}
+
+.subcontainer {
+    width: 40%;
+    text-align: justify;
+    border: 5px ridge #fd4556;
+    box-shadow: inset 0 0 10px #fd4556;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+.subcontainer .head {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.love {
+    color: #fd4556;
+}
+
+hr {
+    border: 2px solid #202020;
+}
+
+/* Scroll bar css */
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+/* Scrollbar track*/
+::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px transparent;  */
+    border-radius: 10px;
+    background-color: #202020;
+}
+/* scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: #fd4556;
+    border-radius: 10px;
+}
